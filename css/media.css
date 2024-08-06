@@ -1,0 +1,242 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+      /* header start */
+    .nav-item .nav-link{
+        margin-left: 0;
+        line-height: 15px;
+    }
+    /* serch */
+    .dpd_manu {
+        width: 296px;
+    }
+    /* welcome section start */
+    .wlc_bissnes {
+        margin: 0 20px 0;
+        padding: 0px 7px;
+        border: 2px solid #8e8e8e;
+    }
+     /* about start */
+     .about {
+        padding: 30px 0 60px;
+    }
+    .about_us {
+        margin-left: 0;
+        padding: 0 18px;
+        text-align: center;
+    }
+    .about_us h1 {
+        margin: 40px 0 30px;
+    }
+    .about_pic {
+        padding: 30px 0 0;
+    }
+    /* footer start */
+    .footer_riter {
+        text-align: center;
+    }
+    .footer_riter p {
+        margin: 0 0 0;
+        color: #ffffff;
+        font-size: 12px;
+    }
+    .footer_ancor {
+        padding: 0 0 30px;
+    }
+     /* work section start */
+     .work-ancor {
+        padding: 40px 0 0;
+    }
+    .work_ancor li a {
+        font-size: 13px;
+    }
+    /* button section start */
+    .nipro h5 {
+        padding: 51px 0px 0px 21px;
+        font-size: 15px;
+    }
+    .nipro_b {
+        margin: 35px 32px 35px 23px;
+    }
+    /* personal information start */
+    .person {
+        padding: 18px 18px 0;
+    }
+    .per_sli {
+        border: 1px solid black;
+        padding: 20px 19px 20px;
+    }
+    /* contruct us start */
+    .conta {
+        margin: 100px 7px 100px 0px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+       /* header start */
+       .header {
+        padding: 0 90px;
+    }
+    .nav-item .nav-link{
+        margin-left: 0;
+        line-height: 20px;
+    }
+     /* about start */
+     .about {
+        padding: 55px 0 80px;
+    }
+     .about_us h1 {
+        margin: 40px 0 30px;
+    }
+    .about_pic {
+        padding: 30px;
+    }
+    /* button section start */
+    .nipro h5 {
+        padding: 51px 0 0;
+        font-size: 15px;
+    }
+    /* footer start */
+    .footer_riter {
+        text-align: center;
+    }
+    .footer_ancor {
+        padding: 0 50px 30px;
+    }
+    /* personal information start */
+    .person {
+        padding: 60px 70px 0;
+    }
+    .per_sli {
+        border: 1px solid black;
+        padding: 35px 40px 35px;
+    }
+    /* contruct us start */
+    .conta {
+        margin: 100px 12px 100px 16px;
+    }
+    
+    
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+      /* header start */
+      .header {
+        padding: 0 90px;
+    }
+      .nav-item .nav-link {
+        margin-left: 10px;
+    }
+    /* about start */
+    .about {
+        padding: 70px 0 80px;
+    }
+    .about_us h1 {
+        margin: 40px 0 30px;
+    }
+    .about_pic {
+        padding: 25px;
+    }
+    /* footer start */
+    .footer_riter {
+        text-align: center;
+    }
+    .footer_ancor {
+        padding: 0 100px 30px;
+    }
+    /* work section start */
+    .work-ancor {
+        padding: 40px 0 0;
+    }
+    /* buton section start */
+    .offset-md-4 {
+        margin-left: 33.33333333%;
+    }
+     /* personal information start */
+     .person {
+        padding: 50px 50px 0;
+    }
+    .per_sli {
+        padding: 50px 70px 50px;
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* header start */
+    .nav-item .nav-link {
+        margin-left: 10px;
+    }
+    /* about start */
+    .about {
+        padding: 100px 0 100px;
+    }
+    .about_us p {
+        font-size: 15px;
+        margin: 8px 0 8px;
+    }
+    /* personal information start */
+    .person_detils h2 {
+        line-height: 22px;
+    }
+    .person_detils h3 {
+        padding: 3% 0 3%;
+        line-height: 25px;
+    }
+    .person_detils h4 {
+        padding: 0 0 15px;
+        line-height: 20px;
+    }
+    .person_detils p {
+        line-height: 23px;
+    }
+    .butto {
+        margin: 0% 0%;
+        width: 61px;
+        min-height: 357px; 
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    /* about start */
+    .about_us p {
+        margin: 28px 0 28px;
+    }
+    /* personal information start */
+    .person_detils h3 {
+        padding: 3% 0 3%;
+    }
+    .person_detils p {
+        line-height: 25px;
+    }
+    .butto {
+        margin: 0% 0%;
+        min-height: 412px;
+    }
+}
+
+ /* Extra extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    /* about start */
+    .about_us p {
+        margin: 55px 0 55px;
+    }
+    /* personal information start */
+    .person_detils h3 {
+        padding: 5% 0 6%;
+    }
+    .person_detils p {
+        line-height: 30px;
+    }
+    .butto {
+        margin: 0% 22%;
+    }
+    /* contruct us start */
+    .conta {
+        margin: 100px 41px 100px 58px;
+    }
+}
